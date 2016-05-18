@@ -108,7 +108,17 @@ class ViewController: UIViewController
         {
             processOperation(currentOperation)
 
+            
         }
+    @IBAction func onClearPressed(sender: AnyObject)
+    {
+        outputLbl.text = "0"
+        var runningNumber = ""
+        var leftValStr = ""
+        var rightValStr = ""
+        var result = ""
+        var currentOperation: Operation = Operation.Empty
+    }
 }
 
 
