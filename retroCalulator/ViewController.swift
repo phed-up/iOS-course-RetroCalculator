@@ -113,11 +113,11 @@ class ViewController: UIViewController
     @IBAction func onClearPressed(sender: AnyObject)
     {
         outputLbl.text = "0"
-        var runningNumber = ""
-        var leftValStr = ""
-        var rightValStr = ""
-        var result = ""
-        var currentOperation: Operation = Operation.Empty
+        runningNumber = ""
+        leftValStr = ""
+        rightValStr = ""
+        result = ""
+        currentOperation = Operation.Empty
     }
 }
 
